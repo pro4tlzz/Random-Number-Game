@@ -10,6 +10,8 @@ namespace Randon_Number_Game
     {
         static void Main(string[] args)
         {
+            // Boolean if user passes
+            Boolean Userpassed;
             // SDeclares Answer Variable
             int answer = 6;
             // Asks user for a number
@@ -18,12 +20,20 @@ namespace Randon_Number_Game
             Console.ReadLine();
             // Takes User Input as String
             string useranswer = Console.ReadLine();
-            //
+            // Declares integer for actual integer
             int userinput;
-            if (!int.TryParse(useranswer, userinput))
+            
+            // User string parsed to Int
+            if (!int.TryParse(useranswer, out userinput))
             {
-                Console.WriteLine("Please Write")
+                // Exception
+                Console.WriteLine("Please enter a valid number");
             }
+            if (userinput == answer)
+            {
+                Console.WriteLine("Congratulations, you have passed");
+            }
+           
             
         }
     }
