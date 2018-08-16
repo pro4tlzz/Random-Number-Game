@@ -28,32 +28,7 @@ namespace Randon_Number_Game
                 try
                 {
                     userinput = Convert.ToInt32(useranswer);
-                    // Checks if input is equal to answer
-                    if (userinput == answer)
-                    {
-                        // User passes
-                        Console.WriteLine("Congratulations, you have passed");
-                        Userpassed = true;
-
-                    }
-                    // Checks if input is greater than answer
-                    else
-                         if (userinput > answer)
-                    {
-                        // User Fails
-                        Console.WriteLine("The actual answer is less than what you entered");
-                        Userpassed = false;
-                    }
-                    // Checks if input is less than answer
-                    else
-                         if (userinput < answer)
-                    {
-                        // User Fails
-                        Console.WriteLine("The actual answer is greater than what you entered");
-                        Userpassed = false;
-                    }
-                    // Displays Message
-                    Console.ReadLine();
+                   
                 }
 
                 catch (Exception ex)
@@ -62,7 +37,32 @@ namespace Randon_Number_Game
                     Console.WriteLine("Error, please enter a valid whole number. " + ex.Message );
                
                 }
+                // Checks if input is equal to answer
+                if (userinput == answer)
+                {
+                    // User passes
+                    Console.WriteLine("Congratulations, you have passed");
+                    Userpassed = true;
 
+                }
+                // Checks if input is greater than answer
+                else
+                     if (userinput > answer)
+                {
+                    // User Fails
+                    Console.WriteLine("The actual answer is less than what you entered");
+                    Userpassed = false;
+                }
+                // Checks if input is less than answer
+                else
+                     if (userinput < answer)
+                {
+                    // User Fails
+                    Console.WriteLine("The actual answer is greater than what you entered");
+                    Userpassed = false;
+                }
+                // Displays Message
+                Console.ReadLine();
 
 
             }
