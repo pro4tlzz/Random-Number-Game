@@ -19,7 +19,7 @@ namespace Randon_Number_Game
              // Asks user for a number
              Console.WriteLine("Enter a number between 1 and 10");
              // Takes User Input as String
-           string useranswer = Console.ReadLine();
+            string useranswer = Console.ReadLine();
             // User string converted to Int
             userinput = Convert.ToInt32(useranswer);
              // Displays Message
