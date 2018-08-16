@@ -29,10 +29,29 @@ namespace Randon_Number_Game
                 // Exception
                 Console.WriteLine("Please enter a valid number");
             }
+            // Displays Message
+            Console.ReadLine();
+            // Checks if input is equal to answer
             if (userinput == answer)
             {
+                // User passes
                 Console.WriteLine("Congratulations, you have passed");
             }
+            else
+                if (userinput > answer)
+            {
+                // User Fails
+                Console.WriteLine("The actual answer is less than what you entered");
+            }
+            else 
+                if (userinput < answer)
+                {
+                // User Fails
+                Console.WriteLine("The actual answer is greater than what you entered");
+                }
+            // Displays Message
+            Console.ReadLine();
+            
            
             
         }
