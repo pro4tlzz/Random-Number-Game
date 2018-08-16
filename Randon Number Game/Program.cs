@@ -56,10 +56,11 @@ namespace Randon_Number_Game
                     Console.ReadLine();
                 }
 
-                catch (Exception)
+                catch (Exception ex)
                 {
                     // Error Message
-                    Console.WriteLine("Error, please enter a valid number");
+                    Console.WriteLine("Error, please enter a valid whole number. " + ex.Message );
+               
                 }
 
 
