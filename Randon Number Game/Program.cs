@@ -15,8 +15,8 @@ namespace Randon_Number_Game
             Boolean userPassed = false;
             // Declares Answer Variable
             int actualAnswer = 6;
-            // Declares integer for actual integer
-            int userInput;
+            // Declares integer for actual integer, we pass a value as it is needed for scope in if selection
+            int userInput = 0;
             // Runs loop until user passes
             while (userPassed == false)
             {
