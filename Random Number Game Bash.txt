@@ -10,6 +10,7 @@ elif [ "$useranswer" -gt "uanswer" ]
 then 
 echo " Your answer was too high "
 elif [ "$useranswer" -lt "uanswer" ]
+then
 echo " Your answer was too low "
 else
 echo "Please try again"
