@@ -1,13 +1,13 @@
 #!/bin/bash
 
-uuseranswer=$1
+useranswer=$1
 uanswer=6
-if [ $uuseranswer -eq uanswer ]
+if [ $useranswer -eq uanswer ]
 then
 echo -e " Congratulations you passed "
-elif [ $uuseranswer -gt uanswer ]
+elif [ $useranswer -gt uanswer ]
 then 
 echo -e " Your answer was too high "
-elif [ $uuseranswer -lt uanswer ]
+elif [ $useranswer -lt uanswer ]
 echo -e " Your answer was too low "
 fi
