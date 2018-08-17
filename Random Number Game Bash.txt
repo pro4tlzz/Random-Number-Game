@@ -1,0 +1,16 @@
+#!/bin/bash
+
+useranswer=$1
+uanswer=6
+
+if [ "$useranswer" -eq "uanswer" ]
+then
+echo -e " Congratulations you passed "
+elif [ "$useranswer" -gt "uanswer" ]
+then 
+echo " Your answer was too high "
+elif [ "$useranswer" -lt "uanswer" ]
+echo " Your answer was too low "
+else
+echo "Please try again"
+fi
