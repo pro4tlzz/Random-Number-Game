@@ -14,7 +14,11 @@ namespace Randon_Number_Game
             // Boolean if user passes
             Boolean userPassed = false;
             // Declares Answer Variable
-            int actualAnswer = 6;
+            //  int actualAnswer = 6;
+            // Random
+            Random r = new Random();
+            int actualAnswer = r.Next(0, 10); //for ints
+            int range = 10;
             // Declares integer for actual integer, we pass a value as it is needed for scope in if selection
             int userInput = 0;
             // Runs loop until user passes
