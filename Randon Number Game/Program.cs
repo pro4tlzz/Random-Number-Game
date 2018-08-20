@@ -17,20 +17,20 @@ namespace Randon_Number_Game
                 {
             Console.WriteLine("Please choose a difficulty level, easy , hard or medium");
             string userdiff = Console.Readline();
-            if (userdiff == easy)
+            if (userdiff == "easy")
                 {
                 // insert random easy
                 userDiff = true;
                 }
                 
-            else
-                if (userdiff == medium)
+            else bbc
+                if (userdiff == "medium")
                     {
                   //  insert random medium
                     userDiff = true;
                     }
             else
-                if (userdiff == hard)
+                if (userdiff == "hard")
                     {
                     userDiff = true;
                // insert random hard
