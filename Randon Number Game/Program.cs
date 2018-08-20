@@ -11,6 +11,33 @@ namespace Randon_Number_Game
        
         static void Main(string[] args)
         {
+            // Boolean for user diff
+            Boolean userDiff = false;
+            while ( userDiff == false)
+                {
+            Console.WriteLine("Please choose a difficulty level, easy , hard or medium");
+            string userdiff = Console.Readline();
+            if (userdiff == easy)
+                {
+                // insert random easy
+                userDiff = true;
+                }
+                
+            else
+                if (userdiff == medium)
+                    {
+                  //  insert random medium
+                    userDiff = true;
+                    }
+            else
+                if (userdiff == hard)
+                    {
+                    userDiff = true;
+               // insert random hard
+                }
+                }
+            
+            
             // Boolean if user passes
             Boolean Userpassed = false;
             // Declares Answer Variable
