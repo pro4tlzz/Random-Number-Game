@@ -23,7 +23,7 @@ namespace Randon_Number_Game
                 userDiff = true;
                 }
                 
-            else bbc
+            else 
                 if (userdiff == "medium")
                     {
                   //  insert random medium
