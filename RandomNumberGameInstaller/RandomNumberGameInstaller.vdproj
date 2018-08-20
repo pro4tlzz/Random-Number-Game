@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_AF7AADCFB29A438BABB06DEF7CDF1127"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F68298872A16E12C6FF3271BEC36D68A"
         "OwnerKey" = "8:_3B0C2B3B378C4B769C09A4D2C80558D3"
         "MsmSig" = "8:_UNDEFINED"
@@ -62,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -124,6 +138,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AF7AADCFB29A438BABB06DEF7CDF1127"
+            {
+            "SourcePath" = "8:..\\ReadMe.txt"
+            "TargetName" = "8:ReadMe.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_22C5431844C9476289B1BC921E5ACC57"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F68298872A16E12C6FF3271BEC36D68A"
             {
             "AssemblyRegister" = "3:1"
@@ -359,13 +393,27 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_341AEF33BBC04498B50A29E56385F645"
             {
-            "Name" = "8:Shortcut to Primary output from Randon Number Game (Active)"
+            "Name" = "8:Randon Number Game"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_3B0C2B3B378C4B769C09A4D2C80558D3"
+            "Folder" = "8:_50E10E1223064DD38712140EB05FB04F"
+            "WorkingFolder" = "8:_22C5431844C9476289B1BC921E5ACC57"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_504ACDAEDEB4424082E8F4F89AA6CC90"
+            {
+            "Name" = "8:ReadMe.txt"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_AF7AADCFB29A438BABB06DEF7CDF1127"
             "Folder" = "8:_50E10E1223064DD38712140EB05FB04F"
             "WorkingFolder" = "8:_22C5431844C9476289B1BC921E5ACC57"
             "Icon" = "8:"
