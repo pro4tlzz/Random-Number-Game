@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F68298872A16E12C6FF3271BEC36D68A"
+        "OwnerKey" = "8:_3B0C2B3B378C4B769C09A4D2C80558D3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3B0C2B3B378C4B769C09A4D2C80558D3"
+        "OwnerKey" = "8:_F68298872A16E12C6FF3271BEC36D68A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -214,15 +222,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Random Number Game "
-        "ProductCode" = "8:{1A124F6E-CB92-4010-A405-DCEF2EA34876}"
-        "PackageCode" = "8:{491656F0-9FA8-44AF-ADCE-B5B666052A19}"
+        "ProductCode" = "8:{9BF1D345-4443-44B3-87C3-93CA70397B82}"
+        "PackageCode" = "8:{D68640CE-45B9-40FD-97E8-47A394624543}"
         "UpgradeCode" = "8:{231F6D0C-EEDE-4FFC-AD8E-C50FC89317C2}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Mohammed Bilal Habib"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

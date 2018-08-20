@@ -17,15 +17,15 @@ namespace Randon_Number_Game
             // int answer = 6;
             // Random
             Random r = new Random();
-            int answer= r.Next(0, 10); //for ints
-            int range = 10;
+            int answer= r.Next(0, 30); //for ints
+            int range = 30;
             // Declares integer for actual integer
             int userinput;
             // Runs loop until user passes
             while (Userpassed == false)
             {
                 // Asks user for a number
-                Console.WriteLine("Enter a number between 1 and 10");
+                Console.WriteLine("Enter a number between 1 and 30");
                 // Takes User Input as String
                 string useranswer = Console.ReadLine();
                 // User string converted to Int and error handling
