@@ -11,50 +11,7 @@ namespace Randon_Number_Game
 
         static void Main(string[] args)
         {
-            Class1 c = new Class1();
-            // Boolean for user diff
-            Boolean userDiff = false;
-            while (userDiff == false)
-            {
-                Console.WriteLine("Please choose a difficulty level, easy , hard or medium");
-                string userdiff = Console.ReadLine();
-                if (userdiff == "easy")
-                {/*
-                // insert random easy
-                Random r = new Random();
-            int answer= r.Next(0, 10); //for ints
-               string eRange = 10 
-                userDiff = true;
-                */
-                    randomgen();
-                }
-
-                else
-                    if (userdiff == "medium")
-                {/*
-                  //  insert random medium
-                    Random r = new Random();
-            int answer= r.Next(0, 30); //for ints
-                    string eRange = 30 
-                    userDiff = true;*/
-                    randomgen();
-                }
-                else
-                    if (userdiff == "hard")
-                {/*
-                    userDiff = true;
-               // insert random hard
-                    Random r = new Random();
-            int answer= r.Next(0, 100); //for ints
-                    string eRange = 100;*/
-                    randomgen();
-                }
-                else
-                {
-                    Console.WriteLine("Please enter a valid difficulty {0}");
-                }
-
-
+           
                 // Boolean if user passes
                 Boolean Userpassed = false;
                 // Declares Answer Variable
@@ -69,7 +26,7 @@ namespace Randon_Number_Game
                 while (Userpassed == false)
                 {
                     // Asks user for a number
-                    Console.WriteLine("Enter a number between 1 and {0}", eRange);
+                    Console.WriteLine("Enter a number between 1 and {0}", range);
                     // Takes User Input as String
                     string useranswer = Console.ReadLine();
                     // User string converted to Int and error handling
@@ -123,18 +80,7 @@ namespace Randon_Number_Game
 
 
         }
-        public class Class1
-        {
-
-            public static void randomgen()
-            {
-                // Random
-                Random r = new Random();
-                int answer = r.Next(0, 30); //for ints
-                int range = 30;
-            }
-        }
+       
     }
-}
 
 
