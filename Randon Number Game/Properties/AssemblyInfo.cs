@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Randon Number Game")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This game asks the user for a number and then if they guess right they win, the user recieves feedback on their answers")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyCompany("Mohammed Bilal Habib")]
 [assembly: AssemblyProduct("Randon Number Game")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2018")]
+[assembly: AssemblyCopyright("Mohammed Bilal Habib")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

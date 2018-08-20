@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Randon Number Game", "Randon Number Game\Randon Number Game.csproj", "{CF0D07F6-F9C2-4B89-BD99-7B6D7B6F68A2}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RandomNumberGameInstaller", "RandomNumberGameInstaller\RandomNumberGameInstaller.vdproj", "{098FA2E9-FE2A-48CB-85B8-10D016A49E46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{CF0D07F6-F9C2-4B89-BD99-7B6D7B6F68A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0D07F6-F9C2-4B89-BD99-7B6D7B6F68A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0D07F6-F9C2-4B89-BD99-7B6D7B6F68A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098FA2E9-FE2A-48CB-85B8-10D016A49E46}.Debug|Any CPU.ActiveCfg = Debug
+		{098FA2E9-FE2A-48CB-85B8-10D016A49E46}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
