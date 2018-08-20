@@ -20,6 +20,9 @@ namespace Randon_Number_Game
             if (userdiff == "easy")
                 {
                 // insert random easy
+                Random r = new Random();
+            int answer= r.Next(0, 10); //for ints
+               string eRange = 10 
                 userDiff = true;
                 }
                 
@@ -27,6 +30,9 @@ namespace Randon_Number_Game
                 if (userdiff == "medium")
                     {
                   //  insert random medium
+                    Random r = new Random();
+            int answer= r.Next(0, 30); //for ints
+                    string eRange = 30 
                     userDiff = true;
                     }
             else
@@ -34,7 +40,11 @@ namespace Randon_Number_Game
                     {
                     userDiff = true;
                // insert random hard
+                    Random r = new Random();
+            int answer= r.Next(0, 100); //for ints
+                    string eRange = 100 
                 }
+                else { Console.WriteLine("Please enter a valid difficulty"):}
                 }
             
             
@@ -52,7 +62,7 @@ namespace Randon_Number_Game
             while (Userpassed == false)
             {
                 // Asks user for a number
-                Console.WriteLine("Enter a number between 1 and 30");
+                Console.WriteLine("Enter a number between 1 and {0}", eRange);
                 // Takes User Input as String
                 string useranswer = Console.ReadLine();
                 // User string converted to Int and error handling
