@@ -14,8 +14,8 @@ namespace Randon_Number_Game
             //  int actualAnswer = 6;
             // Random
             Random r = new Random();
-            int actualAnswer = r.Next(0, 10); //for ints
-            int range = 10;
+            int actualAnswer = r.Next(0, 30); //for ints
+            int range = 30;
             // Declares integer for actual integer, we pass a value as it is needed for scope in if selection
             int userInput = 0;
             Boolean userValid = true;
@@ -23,7 +23,7 @@ namespace Randon_Number_Game
             while (userPassed == false)
             {
                 // Asks user for a number
-                Console.WriteLine("Enter a number between 1 and 10");
+                Console.WriteLine("Enter a number between 1 and {0}", range );
                 // Takes User Input as String
                 string userAnswer = Console.ReadLine();
                 // User string converted to Int and error handling
@@ -62,7 +62,7 @@ namespace Randon_Number_Game
                      if (userInput > actualAnswer)
                 {
                     // User Fails
-                    Console.WriteLine("The actual answer is less than what you entered");
+                    Console.WriteLine("The actual answer is less than {0}", userInput);
                     userPassed = false;
                 }
                 // Checks if input is less than answer
@@ -70,7 +70,7 @@ namespace Randon_Number_Game
                      if (userInput < actualAnswer)
                 {
                     // User Fails
-                    Console.WriteLine("The actual answer is greater than what you entered");
+                    Console.WriteLine("The actual answer is greater than {0}", userInput);
                     userPassed = false;
                 }
 
