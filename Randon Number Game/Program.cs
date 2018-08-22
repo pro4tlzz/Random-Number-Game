@@ -14,7 +14,7 @@ namespace Randon_Number_Game
             //  int actualAnswer = 6;
             // Random
             Random r = new Random();
-            int actualAnswer = r.Next(0, 30); //for ints
+            int actualAnswer = r.Next(1, 30); //for ints
             int range = 30;
             // Declares integer for actual integer, we pass a value as it is needed for scope in if selection
             int userInput;
