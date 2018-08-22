@@ -40,12 +40,15 @@ namespace Randon_Number_Game
                 {
                     // Error Message
                     Console.WriteLine("Error, please enter a valid whole number. " + ex.Message);
+                    // Turns boolean to false if user entered invalid string
                     userValid = false;
 
                 }
                 if (userValid == false)
                 {
+                    // Returns to start if userValid equals false
                     continue;
+
                 }
                 else
 
