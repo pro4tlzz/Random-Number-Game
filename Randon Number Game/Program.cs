@@ -17,8 +17,8 @@ namespace Randon_Number_Game
             int actualAnswer = r.Next(0, 30); //for ints
             int range = 30;
             // Declares integer for actual integer, we pass a value as it is needed for scope in if selection
-            int userInput = 0;
-            Boolean userValid = true;
+            int userInput;
+            //Boolean userValid = true;
             // Runs loop until user passes
             while (userPassed == false)
             {
@@ -30,6 +30,32 @@ namespace Randon_Number_Game
                 try
                 {
                     userInput = Convert.ToInt32(userAnswer);
+                    if (userInput == actualAnswer)
+                    {
+                        // User passes
+                        Console.WriteLine("Congratulations, you have passed");
+                        userPassed = true;
+
+                    }
+                    // Checks if input is greater than answer
+                    else
+                    if (userInput > actualAnswer)
+                    {
+                        // User Fails
+                        Console.WriteLine("The actual answer is less than {0}", userInput);
+                        userPassed = false;
+                    }
+                    // Checks if input is less than answer
+                    else
+                    if (userInput < actualAnswer)
+                    {
+                        // User Fails
+                        Console.WriteLine("The actual answer is greater than {0}", userInput);
+                        userPassed = false;
+                    }
+
+                    // Displays Message
+                    Console.ReadLine();
 
                 }
 
@@ -38,9 +64,10 @@ namespace Randon_Number_Game
                     // Error Message
                     Console.WriteLine("Error, please enter a valid whole number. " + ex.Message);
                     // Turns boolean to false if user entered invalid string
-                    userValid = false;
+                   // userValid = false;
 
                 }
+                /*
                 if (userValid == false)
                 {
                     // Returns to start if userValid equals false
@@ -48,35 +75,9 @@ namespace Randon_Number_Game
 
                 }
                 else
-
+                */
                 // Checks if input is equal to answer
-                if (userInput == actualAnswer)
-                {
-                    // User passes
-                    Console.WriteLine("Congratulations, you have passed");
-                    userPassed = true;
-
-                }
-                // Checks if input is greater than answer
-                else
-                     if (userInput > actualAnswer)
-                {
-                    // User Fails
-                    Console.WriteLine("The actual answer is less than {0}", userInput);
-                    userPassed = false;
-                }
-                // Checks if input is less than answer
-                else
-                     if (userInput < actualAnswer)
-                {
-                    // User Fails
-                    Console.WriteLine("The actual answer is greater than {0}", userInput);
-                    userPassed = false;
-                }
-
-                // Displays Message
-                Console.ReadLine();
-
+               
             }
 
 
