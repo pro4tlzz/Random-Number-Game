@@ -21,6 +21,7 @@ namespace Randon_Number_Game
             int range = 10;
             // Declares integer for actual integer, we pass a value as it is needed for scope in if selection
             int userInput = 0;
+            Boolean userValid = true;
             // Runs loop until user passes
             while (userPassed == false)
             {
@@ -32,15 +33,22 @@ namespace Randon_Number_Game
                 try
                 {
                     userInput = Convert.ToInt32(userAnswer);
-                   
+
                 }
 
                 catch (Exception ex)
                 {
                     // Error Message
-                    Console.WriteLine("Error, please enter a valid whole number. " + ex.Message );
-               
+                    Console.WriteLine("Error, please enter a valid whole number. " + ex.Message);
+                    userValid = false;
+
                 }
+                if (userValid == false)
+                {
+                    continue;
+                }
+                else
+
                 // Checks if input is equal to answer
                 if (userInput == actualAnswer)
                 {
@@ -65,11 +73,12 @@ namespace Randon_Number_Game
                     Console.WriteLine("The actual answer is greater than what you entered");
                     userPassed = false;
                 }
+
                 // Displays Message
                 Console.ReadLine();
 
-
             }
+            
 
 
         }
